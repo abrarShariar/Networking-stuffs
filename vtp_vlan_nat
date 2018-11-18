@@ -71,7 +71,7 @@ Router(dhcp-config)#default 172.18.3.254
 Router(dhcp-config)#exit
 Router(config)#ip dhcp pool dpool4
 Router(dhcp-config)#network 172.18.4.0 255.255.255.0
-Router(dhcp-config)#default 172.18.4.254
+Router(dhcp-config)#default 172.18.4.0
 Router(config)#int s0/3/0
 Router(config-if)#ip address 100.0.0.1 255.255.255.252
 Router(config-if)#clock rate 64000
